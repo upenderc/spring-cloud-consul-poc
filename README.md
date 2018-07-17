@@ -15,3 +15,6 @@ spring cloud integration with consul configuration
    value as 
         https://samples.openweathermap.org/data/2.5/weather?zip={zip}&appid=b6907d289e10d714a6e88b30761fae22
         
+ 10. open the browser and type the following url
+ http://localhost:8080/discoveryClient?zip=75068&country=us
+        

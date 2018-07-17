@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        enabled: true
+      discovery:
+        healthCheckInterval: 15s
+        instance-id: ${spring.application.name}
+  application:
+    name: spring-config-consul
+myapp:
+  text: upender
